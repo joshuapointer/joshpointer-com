@@ -1,11 +1,11 @@
 import { useRef } from 'react'
 import { useFrame } from '@react-three/fiber'
 import { Float, Html } from '@react-three/drei'
-import { Mesh } from 'three'
+import { Group } from 'three'
 import PhoneScreen from './PhoneScreen'
 
 export default function FloatingPhone() {
-  const phoneRef = useRef<Mesh>(null)
+  const phoneRef = useRef<Group>(null)
 
   useFrame((state) => {
     if (!phoneRef.current) return
@@ -35,7 +35,6 @@ export default function FloatingPhone() {
             position={[0, 0, 0.11]}
             scale={0.15}
             rotation={[0, 0, 0]}
-            transform
             occlude
           >
             <PhoneScreen />

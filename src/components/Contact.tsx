@@ -11,7 +11,7 @@ export default function Contact() {
           transition={{ duration: 0.5 }}
           className="text-4xl font-bold"
         >
-          Let's Build Something Amazing
+          Let&apos;s Build Something Amazing
         </motion.h2>
         <motion.p
           initial={{ opacity: 0 }}
@@ -19,7 +19,7 @@ export default function Contact() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-lg text-primary-foreground/80 max-w-2xl mx-auto"
         >
-          Looking for a mobile developer who can bring your ideas to life? Let's talk about your project.
+          Looking for a mobile developer who can bring your ideas to life? Let&apos;s talk about your project.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

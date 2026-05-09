@@ -9,7 +9,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl font-bold"
         >
-          Hi, I'm John Doe
+          Hi, I&apos;m John Doe
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -17,7 +17,7 @@ export default function Home() {
           transition={{ delay: 0.1 }}
           className="text-lg text-muted-foreground"
         >
-          I'm a mobile developer specializing in creating exceptional digital experiences. 
+          I&apos;m a mobile developer specializing in creating exceptional digital experiences. 
           With expertise in React Native and iOS development, I help businesses bring their 
           ideas to life through intuitive and performant mobile applications.
         </motion.p>
